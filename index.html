@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>営業地図</title>
+    <meta name="description" content="GeoJSONによる営業地図">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html, body, .geolonia {
+          width: 100%;
+          height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="geolonia"
+      data-geojson="/json/setagaya_primary_school.geojson"
+      data-cluster="off"
+      data-fullscreen-control="on"
+    ></div>
+
+    <script type="text/javascript" src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
+  </body>
+</html>
